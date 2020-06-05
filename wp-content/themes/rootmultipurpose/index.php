@@ -16,17 +16,14 @@
         </button>
         <a class="navbar-brand" href="#">root </a>
           </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a class="page-scroll" href="#main">Home</a></li>
-                <li><a class="page-scroll" href="#specs">Specs</a></li>
-                <li><a class="page-scroll" href="#features">Features</a></li>
-                <li><a class="page-scroll" href="#reviews">Reviews</a></li>
-                <li><a class="page-scroll" href="#buy">Pricing</a></li>
-                <li><a href="#buy" class="btn btn-nav page-scroll wow fadeInDown" data-wow-delay="0.3s"><span>Buy Now</span></a></li>
-            </ul>
-          </div>
+          <div class="navbar-right">
+               <a href="#buy" class="btn btn-nav page-scroll wow fadeInDown" data-wow-delay="0.3s"><span>Buy Now</span></a>
+                </div>
+                <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'collapse navbar-collapse navbar-right', 'container_id' => 'bs-example-navbar-collapse-1', 'menu_class' => 'nav navbar-nav' ) ); 
+                ?>
+               
+                
+           
         </div>
       </nav><!-- /.navbar-collapse -->
 
