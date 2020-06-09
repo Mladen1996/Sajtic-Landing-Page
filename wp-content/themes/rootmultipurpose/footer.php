@@ -1,27 +1,21 @@
+<?php $footer=get_field('footer'); ?>
 <div class="footer">
         <div class="container">
           <div class="row">
             <div class="col-sm-5">
               <div class="ft-left">
                 <div class="footer-img">
-                   <img src="<?php echo get_template_directory_uri().'/icons/pi-logo.png';?>" width="30" alt="Logo">
+                <img src="<?php echo $footer['logo']?>" alt="logo">
+                
                 </div>
-                <p>Cu qui probo malorum saperet. Ne admodum apeirian iracundia usu, eam cu agam ludus,
-                  eum munere accusam molestie ut. Alienum percipitur ne est, pri quando iriure ad. </p>
-                <p>&copy; 2017 YDirection Themes by IOThemes</p>
+                <p> <?php echo $footer['paragraph']?> </p>
+                <p> <?php echo $footer['copyright']?></p>
               </div>
             </div>
             <div class="col-sm-4 col-sm-offset-3">
-              <div class="ft-right">
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Product Details</a></li>
-                  <li><a href="#">Pricing</a></li>
-                  <li><a href="#">Privacy policy</a></li>
-                  <li><a href="#">User Agreement</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
+              
+                <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'ft-right','theme_location'=>'footer-menu') );?>
+                  
             </div>
           </div>
         </div>

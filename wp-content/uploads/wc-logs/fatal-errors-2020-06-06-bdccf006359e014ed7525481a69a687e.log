@@ -1,0 +1,10 @@
+2020-06-06T14:42:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-taxonomies.php у реду 10
+
+2020-06-06T14:42:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-assets.php у реду 11
+
+2020-06-06T15:28:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\custom-post-type-ui\inc\listings.php у реду 15
+
+2020-06-06T15:28:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php у реду 11
+
+2020-06-06T16:42:51+00:00 CRITICAL syntax error, unexpected '/', expecting end of file у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\functions.php у реду 4
+

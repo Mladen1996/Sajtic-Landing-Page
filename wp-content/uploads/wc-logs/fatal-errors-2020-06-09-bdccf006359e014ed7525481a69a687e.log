@@ -1,0 +1,4 @@
+2020-06-09T11:42:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-includes\Requests\Transport\cURL.php у реду 163
+
+2020-06-09T12:46:35+00:00 CRITICAL Cannot redeclare register_my_menu() (previously declared in C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\functions.php:6) у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\functions.php у реду 15
+

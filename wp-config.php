@@ -89,4 +89,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Поставља Вордпресове променљиве и укључене датотеке. */
 require_once( ABSPATH . 'wp-settings.php' );
 
-set_time_limit(300);
+set_time_limit(600);
