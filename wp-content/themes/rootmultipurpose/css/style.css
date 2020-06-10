@@ -279,7 +279,7 @@ body {
   color: #FFFFFF;
   border-radius: 0.7rem;
 	box-shadow: 0 3px 10px rgba(65,205,82,.5);
-  padding: 0.5rem 1.5rem;
+  padding: 8px 24px;
   margin-left: 1.5rem !important;
   margin-top: 0.4rem;
   transition: all .3s ease-in-out;
@@ -1422,7 +1422,7 @@ body {
 
 
 .cta-2 {
-	background: #FFFFFF;
+	background: #F2F2F2;
 	width: 100%;
 	padding: 100px 0 100px 0;
 }

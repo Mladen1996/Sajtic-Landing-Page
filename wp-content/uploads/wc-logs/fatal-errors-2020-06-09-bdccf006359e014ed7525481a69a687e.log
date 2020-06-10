@@ -2,3 +2,25 @@
 
 2020-06-09T12:46:35+00:00 CRITICAL Cannot redeclare register_my_menu() (previously declared in C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\functions.php:6) у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\functions.php у реду 15
 
+2020-06-09T13:21:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\ActivityPanels.php у реду 16
+
+2020-06-09T15:17:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\advanced-custom-fields\includes\fields\class-acf-field-file.php у реду 3
+
+2020-06-09T15:46:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\custom-post-type-ui\inc\listings.php у реду 15
+
+2020-06-09T16:11:43+00:00 CRITICAL Uncaught Error: Call to undefined function mytheme_post_thumbnail() in C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\template-parts\content-page.php:17
+Stack trace:
+#0 C:\xampp\htdocs\Sajtic-Landing-Page\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\Sajtic-Landing-Page\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\Sajtic-Landing-Page\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\page.php(10): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\Sajtic-Landing-Page\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Sajtic-Landing-Page\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Sajtic-Landing-Page\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\template-parts\content-page.php у реду 17
+
+2020-06-09T17:57:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\advanced-custom-fields\includes\locations\class-acf-location-nav-menu-item.php у реду 3
+
+2020-06-09T18:59:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueCleaner.php у реду 6
+
