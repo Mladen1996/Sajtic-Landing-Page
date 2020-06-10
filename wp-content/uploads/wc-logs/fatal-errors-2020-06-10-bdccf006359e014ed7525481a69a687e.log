@@ -1,0 +1,6 @@
+2020-06-10T07:31:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Server.php у реду 10
+
+2020-06-10T07:31:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Orders\Stats\DataStore.php у реду 10
+
+2020-06-10T07:37:40+00:00 CRITICAL syntax error, unexpected ':' у C:\xampp\htdocs\Sajtic-Landing-Page\wp-content\themes\rootmultipurpose\front-page.php у реду 254
+
